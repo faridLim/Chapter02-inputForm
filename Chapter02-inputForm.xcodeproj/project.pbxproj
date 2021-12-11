@@ -13,6 +13,8 @@
 		F8B6C740276462180010F14D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8B6C73E276462180010F14D /* Main.storyboard */; };
 		F8B6C742276462190010F14D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B6C741276462190010F14D /* Assets.xcassets */; };
 		F8B6C745276462190010F14D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8B6C743276462190010F14D /* LaunchScreen.storyboard */; };
+		F8B6C74D276486DC0010F14D /* ReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B6C74C276486DC0010F14D /* ReadViewController.swift */; };
+		F8B6C74F2764E1E00010F14D /* HanaCM.otf in Resources */ = {isa = PBXBuildFile; fileRef = F8B6C74E2764E16B0010F14D /* HanaCM.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F8B6C741276462190010F14D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8B6C744276462190010F14D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8B6C746276462190010F14D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8B6C74C276486DC0010F14D /* ReadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadViewController.swift; sourceTree = "<group>"; };
+		F8B6C74E2764E16B0010F14D /* HanaCM.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HanaCM.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		F8B6C737276462180010F14D /* Chapter02-inputForm */ = {
 			isa = PBXGroup;
 			children = (
+				F8B6C74E2764E16B0010F14D /* HanaCM.otf */,
 				F8B6C738276462180010F14D /* AppDelegate.swift */,
 				F8B6C73A276462180010F14D /* SceneDelegate.swift */,
 				F8B6C73C276462180010F14D /* ViewController.swift */,
+				F8B6C74C276486DC0010F14D /* ReadViewController.swift */,
 				F8B6C73E276462180010F14D /* Main.storyboard */,
 				F8B6C741276462190010F14D /* Assets.xcassets */,
 				F8B6C743276462190010F14D /* LaunchScreen.storyboard */,
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8B6C74F2764E1E00010F14D /* HanaCM.otf in Resources */,
 				F8B6C745276462190010F14D /* LaunchScreen.storyboard in Resources */,
 				F8B6C742276462190010F14D /* Assets.xcassets in Resources */,
 				F8B6C740276462180010F14D /* Main.storyboard in Resources */,
@@ -140,6 +147,7 @@
 			files = (
 				F8B6C73D276462180010F14D /* ViewController.swift in Sources */,
 				F8B6C739276462180010F14D /* AppDelegate.swift in Sources */,
+				F8B6C74D276486DC0010F14D /* ReadViewController.swift in Sources */,
 				F8B6C73B276462180010F14D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
